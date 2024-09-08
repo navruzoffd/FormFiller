@@ -62,3 +62,173 @@
 2024-09-08 16:19:15 | DEBUG    | src.yandex:_init_browser:25 - Browser initialized
 2024-09-08 16:21:03 | DEBUG    | src.yandex:_init_browser:25 - Browser initialized
 2024-09-08 16:25:35 | DEBUG    | src.yandex:_init_browser:26 - Browser initialized
+2024-09-08 16:36:04 | DEBUG    | src.yandex:_init_browser:26 - Browser initialized
+2024-09-08 16:37:08 | DEBUG    | src.yandex:_init_browser:26 - Browser initialized
+2024-09-08 17:45:37 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 17:47:29 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:00:36 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:04:54 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:06:23 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:06:24 | DEBUG    | src.yandex:fill_form:87 - Open file
+2024-09-08 19:06:25 | DEBUG    | src.yandex:fill_form:90 - Find questions
+2024-09-08 19:06:25 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:06:25 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:06:25 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:06:25 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:07:25 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:07:27 | DEBUG    | src.yandex:fill_form:87 - Open file
+2024-09-08 19:07:27 | DEBUG    | src.yandex:fill_form:90 - Find questions
+2024-09-08 19:07:27 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:07:27 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:07:27 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:07:27 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:08:08 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:08:10 | DEBUG    | src.yandex:fill_form:87 - Open file
+2024-09-08 19:08:11 | DEBUG    | src.yandex:fill_form:90 - Find questions
+2024-09-08 19:08:11 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:08:11 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:08:11 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:08:11 | DEBUG    | src.yandex:fill_form:97 - Find options
+2024-09-08 19:10:45 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:10:47 | DEBUG    | src.yandex:fill_form:87 - Open file
+2024-09-08 19:10:47 | DEBUG    | src.yandex:fill_form:90 - Find questions
+2024-09-08 19:10:47 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:10:47 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:10:47 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:10:47 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:11:22 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:11:24 | DEBUG    | src.yandex:fill_form:87 - Open file
+2024-09-08 19:11:24 | DEBUG    | src.yandex:fill_form:90 - Find questions
+2024-09-08 19:11:24 | DEBUG    | src.yandex:fill_form:99 - Find options
+2024-09-08 19:11:24 | DEBUG    | src.yandex:fill_form:99 - Find options
+2024-09-08 19:11:24 | DEBUG    | src.yandex:fill_form:99 - Find options
+2024-09-08 19:11:24 | DEBUG    | src.yandex:fill_form:99 - Find options
+2024-09-08 19:12:05 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:12:07 | DEBUG    | src.yandex:fill_form:87 - Open file
+2024-09-08 19:12:07 | DEBUG    | src.yandex:fill_form:90 - Find questions
+2024-09-08 19:12:07 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:12:07 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:12:07 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:12:07 | DEBUG    | src.yandex:fill_form:98 - Find options
+2024-09-08 19:14:42 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:17:03 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:18:25 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:20:22 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:20:39 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:27:09 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:27:52 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:28:42 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:32:35 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:33:17 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:34:12 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:36:08 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:36:21 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:38:48 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:42:40 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:42:52 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:43:39 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:47:59 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:48:23 | DEBUG    | src.yandex:fill_form:102 - In checkbox
+2024-09-08 19:49:07 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:50:15 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:50:23 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:50:32 | DEBUG    | src.yandex:fill_form:102 - In checkbox
+2024-09-08 19:50:41 | DEBUG    | src.yandex:fill_form:102 - In checkbox
+2024-09-08 19:53:09 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:57:29 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 19:57:38 | INFO     | src.yandex:fill_form:115 - Processed question 1
+2024-09-08 19:57:42 | INFO     | src.yandex:fill_form:115 - Processed question 2
+2024-09-08 19:57:47 | INFO     | src.yandex:fill_form:115 - Processed question 3
+2024-09-08 19:57:51 | INFO     | src.yandex:fill_form:115 - Processed question 4
+2024-09-08 19:58:20 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:47:15 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:47:18 | DEBUG    | src.yandex:start:34 - page loaded
+2024-09-08 20:47:25 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:47:38 | INFO     | src.yandex:fill_form:116 - Processed question 2
+2024-09-08 20:48:23 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:48:25 | DEBUG    | src.yandex:start:34 - page loaded
+2024-09-08 20:48:45 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:48:47 | DEBUG    | src.yandex:start:34 - page loaded
+2024-09-08 20:48:52 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:48:56 | INFO     | src.yandex:fill_form:116 - Processed question 2
+2024-09-08 20:49:00 | INFO     | src.yandex:fill_form:116 - Processed question 3
+2024-09-08 20:49:46 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:49:48 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 20:56:25 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:56:37 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:56:41 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 20:56:44 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:56:47 | INFO     | src.yandex:fill_form:116 - Processed question 2
+2024-09-08 20:56:49 | INFO     | src.yandex:fill_form:116 - Processed question 3
+2024-09-08 20:56:52 | INFO     | src.yandex:fill_form:116 - Processed question 4
+2024-09-08 20:57:35 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:57:39 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 20:57:42 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:57:46 | INFO     | src.yandex:fill_form:116 - Processed question 2
+2024-09-08 20:57:50 | INFO     | src.yandex:fill_form:116 - Processed question 3
+2024-09-08 20:57:55 | INFO     | src.yandex:fill_form:116 - Processed question 4
+2024-09-08 20:58:21 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:58:25 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 20:58:28 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:58:56 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:59:00 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:59:04 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 20:59:09 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:59:13 | INFO     | src.yandex:fill_form:116 - Processed question 2
+2024-09-08 20:59:22 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 20:59:25 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 20:59:29 | INFO     | src.yandex:fill_form:116 - Processed question 1
+2024-09-08 20:59:33 | INFO     | src.yandex:fill_form:116 - Processed question 2
+2024-09-08 20:59:39 | INFO     | src.yandex:fill_form:116 - Processed question 3
+2024-09-08 20:59:46 | INFO     | src.yandex:fill_form:116 - Processed question 4
+2024-09-08 21:14:21 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:14:26 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:14:27 | INFO     | src.yandex:fill_form:126 - Processed question 1
+2024-09-08 21:14:32 | INFO     | src.yandex:fill_form:126 - Processed question 2
+2024-09-08 21:14:34 | INFO     | src.yandex:fill_form:126 - Processed question 3
+2024-09-08 21:14:42 | INFO     | src.yandex:fill_form:126 - Processed question 4
+2024-09-08 21:17:19 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:17:28 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:17:30 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:17:34 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:17:35 | INFO     | src.yandex:fill_form:129 - Processed question 3
+2024-09-08 21:17:42 | INFO     | src.yandex:fill_form:129 - Processed question 4
+2024-09-08 21:22:29 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:22:34 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:22:35 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:22:39 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:22:42 | INFO     | src.yandex:fill_form:129 - Processed question 3
+2024-09-08 21:22:46 | INFO     | src.yandex:fill_form:129 - Processed question 4
+2024-09-08 21:22:52 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:22:56 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:22:58 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:23:02 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:23:05 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:23:09 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:23:11 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:23:15 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:23:19 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:23:21 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:23:23 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:23:27 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:23:28 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:23:33 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:23:37 | INFO     | src.yandex:fill_form:129 - Processed question 3
+2024-09-08 21:23:39 | INFO     | src.yandex:fill_form:129 - Processed question 4
+2024-09-08 21:24:55 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:25:00 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:25:01 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:25:04 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:25:07 | INFO     | src.yandex:fill_form:129 - Processed question 3
+2024-09-08 21:25:11 | INFO     | src.yandex:fill_form:129 - Processed question 4
+2024-09-08 21:25:26 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:25:30 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:25:31 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:25:34 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:25:38 | INFO     | src.yandex:fill_form:129 - Processed question 3
+2024-09-08 21:25:41 | INFO     | src.yandex:fill_form:129 - Processed question 4
+2024-09-08 21:25:44 | DEBUG    | src.yandex:_init_browser:27 - Browser initialized
+2024-09-08 21:25:47 | DEBUG    | src.yandex:start:34 - Page loaded
+2024-09-08 21:25:48 | INFO     | src.yandex:fill_form:129 - Processed question 1
+2024-09-08 21:25:52 | INFO     | src.yandex:fill_form:129 - Processed question 2
+2024-09-08 21:25:53 | INFO     | src.yandex:fill_form:129 - Processed question 3

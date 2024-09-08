@@ -1,0 +1,57 @@
+{
+    "formTitle": "Новая форма",
+    "questions": [
+        {
+            "questionText": "Один вариант(Квиз)",
+            "questionType": "radiobutton",
+            "options": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3",
+                "Вариант 4"
+            ],
+            "selectionWeight": {
+                "1": 9,
+                "2": 1,
+                "3": 1,
+                "4": 1
+            }
+        },
+        {
+            "questionText": "Несколько вариантов(Квиз)",
+            "questionType": "checkbox",
+            "options": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3",
+                "Вариант 4"
+            ],
+            "selectionWeight": {
+                "1": 5,
+                "2": 1,
+                "3": 3,
+                "4": 1
+            }
+        },
+        {
+            "questionText": "Один вариант",
+            "questionType": "radiobutton",
+            "options": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3",
+                "Вариант 4"
+            ]
+        },
+        {
+            "questionText": "Несколько вариантов",
+            "questionType": "checkbox",
+            "options": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3",
+                "Вариант 4"
+            ]
+        }
+    ]
+}
