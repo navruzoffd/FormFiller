@@ -7,6 +7,7 @@ annotated-types==0.7.0
 async-timeout==4.0.3
 attrs==24.2.0
 certifi==2024.8.30
+fake-useragent==1.5.1
 frozenlist==1.4.1
 greenlet==3.0.3
 idna==3.8

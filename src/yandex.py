@@ -30,10 +30,12 @@ class YandexForm:
         await self._init_browser()
         self.page = await self.context.new_page()
         await self.page.goto(url)
-        await self.page.wait_for_load_state("networkidle")
+        await self.page.wait_for_selector(".SurveyPage")
         logger.debug("Page loaded")
 
     async def get_form_json(self, json_name):
+
+        link = self.page.url
 
         form = await self.page.query_selector(".SurveyPage")
 
@@ -41,6 +43,7 @@ class YandexForm:
         form_name_text = (await form_name.text_content()).strip()
 
         form_data = {
+            "formLink": link,
             "formTitle": form_name_text,
             "questions": []
         }
@@ -122,5 +125,8 @@ class YandexForm:
                         logger.debug(f"Checkbox not found in option {options[index]}")
 
             question_count += 1
-            logger.info(f"Processed question {question_count}")
-            await asyncio.sleep(random.randint(1000, 3500) / 1000)
+            await asyncio.sleep(random.randint(1000, 2500) / 1000)
+
+        await self.page.click("button[type='submit']")
+        await asyncio.sleep(0.5)
+        await self.browser.close()
