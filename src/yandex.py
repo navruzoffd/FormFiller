@@ -47,8 +47,17 @@ class YandexForm:
     async def get_form_json(self, json_name: str):
         try:
             link = self.page.url
+
             form = await self.page.query_selector(".SurveyPage")
+            if form is None:
+                logger.error("Form element not found")
+                return
+
             form_name = await form.query_selector(".SurveyPage-Name")
+            if form_name is None:
+                logger.error("Form name element not found")
+                return
+            
             form_name_text = (await form_name.text_content()).strip()
 
             form_data = {
@@ -58,13 +67,28 @@ class YandexForm:
             }
 
             questions = await form.query_selector_all(".QuestionMarkup")
+            if not questions:
+                logger.error("No questions found in form")
+                return
 
             for question in questions:
                 question_name_column = await question.query_selector(".QuestionMarkup-Column_column_left")
+                if question_name_column is None:
+                    logger.warning("Question name column not found")
+                    continue
+
                 question_name = await question_name_column.query_selector("p")
+                if question_name is None:
+                    logger.warning("Question name not found")
+                    continue
+
                 question_name_text = await question_name.text_content()
 
                 options = await question.query_selector_all("label")
+                if not options:
+                    logger.warning(f"No options found for question: {question_name_text}")
+                    continue
+
                 option_list = [await option.text_content().strip() for option in options]
 
                 question_html = await question.inner_html()
@@ -99,12 +123,21 @@ class YandexForm:
                 form_data = json.load(file)
 
             questions = await self.page.query_selector_all(".QuestionMarkup")
+            if not questions:
+                logger.error("No questions found on the page")
+                return
+
             question_count = 0
 
             for question in questions:
                 question_info = form_data["questions"][question_count]
                 question_type = question_info["questionType"]
+
                 options = await question.query_selector_all("label")
+                if not options:
+                    logger.warning(f"No options found for question: {question_info['questionText']}")
+                    continue
+
                 option_texts = [await option.inner_text() for option in options]
                 option_weights = question_info.get("selectionWeight", {})
 
