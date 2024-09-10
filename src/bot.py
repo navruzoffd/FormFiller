@@ -43,7 +43,6 @@ async def handle_yandex_form_link(message: Message) -> None:
             await form.start(link)
             await form.get_form_json(f"forms/{user_id}.json")
             await message.answer("Данные формы получены:")
-            
             parse_json_message = await parse_json(f"forms/{user_id}.json")
             await message.answer(parse_json_message)
             await message.answer("Указать весомость ответов- /weight.\nЗапустить - /run")

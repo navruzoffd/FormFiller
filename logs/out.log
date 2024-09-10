@@ -1,0 +1,11 @@
+2024-09-10 21:39:41 | INFO     | src.bot:main:206 - Запуск бота
+2024-09-10 21:39:43 | INFO     | src.bot:command_start_handler:26 - Начата обработка команды /start от пользователя 968296667
+2024-09-10 21:39:48 | INFO     | src.bot:handle_yandex_form_link:36 - Получена ссылка на форму от пользователя 968296667: https://forms.yandex.ru/u/66e0858e068ff00eca298fc7/
+2024-09-10 21:39:49 | DEBUG    | src.yandex:_init_browser:30 - Browser initialized
+2024-09-10 21:39:57 | DEBUG    | src.yandex:start:37 - Page loaded
+2024-09-10 21:39:58 | DEBUG    | src.yandex:get_form_json:89 - JSON form loaded
+2024-09-10 21:40:02 | INFO     | src.bot:run_filling:57 - Команда /run от пользователя 968296667
+2024-09-10 21:40:04 | INFO     | src.bot:process_repetitions:71 - Пользователь 968296667 запросил 1 повторений заполнения формы
+2024-09-10 21:40:05 | DEBUG    | src.yandex:_init_browser:30 - Browser initialized
+2024-09-10 21:40:11 | DEBUG    | src.yandex:start:37 - Page loaded
+2024-09-10 21:40:18 | INFO     | src.bot:process_repetitions:90 - Форма успешно заполнена 1 раз(а) для пользователя 968296667
