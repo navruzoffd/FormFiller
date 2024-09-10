@@ -10,6 +10,7 @@ from aiogram.filters.state import State, StatesGroup, StateFilter
 from playwright.async_api import async_playwright
 from fake_useragent import UserAgent
 from src.yandex import YandexForm
+import os
 
 class FormFillingState(StatesGroup):
     waiting_for_question_number = State()
@@ -45,7 +46,7 @@ async def handle_yandex_form_link(message: Message) -> None:
             
             parse_json_message = await parse_json(f"forms/{user_id}.json")
             await message.answer(parse_json_message)
-            await message.answer("Указать весомость вариантов ответов- /weight.\nЗапустить - /run")
+            await message.answer("Указать весомость ответов- /weight.\nЗапустить - /run")
     except Exception as e:
         logger.error(f"Ошибка при обработке ссылки на форму: {e}")
         await message.answer("Произошла ошибка при обработке формы.")
@@ -68,19 +69,22 @@ async def process_repetitions(message: Message, state: FSMContext):
         path = f"forms/{user_id}.json"
 
         logger.info(f"Пользователь {user_id} запросил {repetitions} повторений заполнения формы")
-        await message.answer("Начинаю процесс заполнения.")
+        await message.answer("Начинаю процесс заполнения...\nНе изменяйте форму до завершения процесса!")
 
-        with open(path, 'r', encoding='utf-8') as file:
+        with open(path, 'r', encoding='utf-8') as file: 
             form = json.load(file)
 
         link = form["formLink"]
 
         async with async_playwright() as playwright:
-            for _ in range(repetitions):
+            for i in range(repetitions):
                 ua = UserAgent(browsers=['edge', 'chrome'], os=["windows", "android", "ios"])
-                form_filler = YandexForm(playwright, ua.random)
+                storage = os.getenv("storage.json")
+                form_filler = YandexForm(playwright, ua.random, storage)
                 await form_filler.start(link)
                 await form_filler.fill_form(f"forms/{user_id}.json")
+                if (i+1) % 10 == 0:
+                    os.remove("storage.json")
 
         await message.answer(f"Форма была успешно заполнена {repetitions} раз(а).")
         logger.info(f"Форма успешно заполнена {repetitions} раз(а) для пользователя {user_id}")

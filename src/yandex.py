@@ -9,10 +9,12 @@ class YandexForm:
 
     def __init__(self,
                  playwright: Playwright,
-                 useragent: str = None) -> None:
+                 useragent: str = None,
+                 storage: str = None) -> None:
         
         self.playwright = playwright
         self.useragent = useragent
+        self.storage = storage
 
     async def _init_browser(self):
         self.browser = await self.playwright.chromium.launch(
@@ -22,7 +24,8 @@ class YandexForm:
             ])
         
         self.context = await self.browser.new_context(
-            user_agent=self.useragent
+            user_agent=self.useragent,
+            storage_state=self.storage
         )
         logger.debug("Browser initialized")
 
@@ -129,4 +132,5 @@ class YandexForm:
 
         await self.page.click("button[type='submit']")
         await asyncio.sleep(0.5)
+        await self.context.storage_state(path=f"storage.json")
         await self.browser.close()

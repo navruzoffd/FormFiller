@@ -1,29 +1,7 @@
 {
-    "formLink": "https://forms.yandex.ru/u/66dd673d5056905f78e71678/",
-    "formTitle": "Новая форма",
+    "formLink": "https://forms.yandex.ru/u/66e0034cd0468826d588a4bb/",
+    "formTitle": "Тестовая форма",
     "questions": [
-        {
-            "questionText": "Один вариант(Квиз)",
-            "questionType": "radiobutton",
-            "options": [
-                "Вариант 1",
-                "Вариант 2",
-                "Вариант 3",
-                "Вариант 4",
-                "Вариант 5",
-                "Вариант 6"
-            ]
-        },
-        {
-            "questionText": "Несколько вариантов(Квиз)",
-            "questionType": "checkbox",
-            "options": [
-                "Вариант 1",
-                "Вариант 2",
-                "Вариант 3",
-                "Вариант 4"
-            ]
-        },
         {
             "questionText": "Один вариант",
             "questionType": "radiobutton",
@@ -32,7 +10,13 @@
                 "Вариант 2",
                 "Вариант 3",
                 "Вариант 4"
-            ]
+            ],
+            "selectionWeight": {
+                "1": 8,
+                "2": 5,
+                "3": 3,
+                "4": 1
+            }
         },
         {
             "questionText": "Несколько вариантов",
@@ -40,9 +24,13 @@
             "options": [
                 "Вариант 1",
                 "Вариант 2",
-                "Вариант 3",
-                "Вариант 4"
-            ]
+                "Вариант 3"
+            ],
+            "selectionWeight": {
+                "1": 9,
+                "2": 5,
+                "3": 2
+            }
         }
     ]
 }
