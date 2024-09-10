@@ -33,7 +33,7 @@ class YandexForm:
         await self._init_browser()
         self.page = await self.context.new_page()
         await self.page.goto(url)
-        await self.page.wait_for_selector(".SurveyPage")
+        await self.page.wait_for_load_state('networkidle')
         logger.debug("Page loaded")
 
     async def get_form_json(self, json_name):

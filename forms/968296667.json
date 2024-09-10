@@ -1,6 +1,6 @@
 {
-    "formLink": "https://forms.yandex.ru/u/66e0034cd0468826d588a4bb/",
-    "formTitle": "Тестовая форма",
+    "formLink": "https://forms.yandex.ru/u/66e0858e068ff00eca298fc7/",
+    "formTitle": "Тест 1000",
     "questions": [
         {
             "questionText": "Один вариант",
@@ -10,13 +10,7 @@
                 "Вариант 2",
                 "Вариант 3",
                 "Вариант 4"
-            ],
-            "selectionWeight": {
-                "1": 8,
-                "2": 5,
-                "3": 3,
-                "4": 1
-            }
+            ]
         },
         {
             "questionText": "Несколько вариантов",
@@ -25,12 +19,7 @@
                 "Вариант 1",
                 "Вариант 2",
                 "Вариант 3"
-            ],
-            "selectionWeight": {
-                "1": 9,
-                "2": 5,
-                "3": 2
-            }
+            ]
         }
     ]
 }
